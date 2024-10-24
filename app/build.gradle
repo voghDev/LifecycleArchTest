@@ -33,12 +33,12 @@ android {
 }
 
 dependencies {
-    implementation "io.reactivex.rxjava3:rxjava:3.1.6"
-    implementation "io.reactivex.rxjava3:rxandroid:3.0.0"
-    implementation "androidx.lifecycle:lifecycle-process:2.5.4"
-    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.4"
-    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.5.4"
-    implementation "io.insert-koin:koin-android:3.2.0"
+    implementation libs.rxjava
+    implementation libs.rxandroid
+    implementation libs.lifecycle.process
+    implementation libs.lifecycle.viewmodel
+    implementation libs.lifecycle.runtime
+    implementation libs.koin
     implementation libs.androidx.core.ktx
     implementation libs.androidx.appcompat
     implementation libs.material
